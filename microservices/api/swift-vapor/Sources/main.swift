@@ -15,7 +15,17 @@ drop.get("/") { _ in
 }
 
 drop.get("/get_articles") { _ in
-  return dataUrl
+  let req = Request(method: .post, uri: dataUrl + "/v1/query")
+  req.JSON = try JSON(node: [
+        "type": "select",
+        "args": try JSON(node: [
+            "table": "article",
+            "columns": try JSON(node: ["*"])
+        ])
+    ])
+
+  let response = try drop.client.respond(to: req)
+  return response
 }
 
 drop.run()
