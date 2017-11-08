@@ -1,1 +1,5 @@
 .hasura
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
