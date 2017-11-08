@@ -1,4 +1,5 @@
 import Vapor
+import HTTP
 import Foundation
 
 var dataUrl = "http://data.default"
