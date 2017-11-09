@@ -1,7 +1,7 @@
-- alias: hasura
+- alias: hasrua
   config:
     configmap: controller-conf
     namespace: hasura
   data: null
-  kubeContext: h34-decipher39-stg
-  name: h34-decipher39-stg
+  kubeContext: asexuality44
+  name: asexuality44
