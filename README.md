@@ -13,7 +13,6 @@ This is the right place to start if you are planning to build or want to learn t
 * [Filestore API](#filestore-apis)
 * [Custom service](#custom-service)
 * [Project Structure](#project-structure)
-* [FAQ](#faq)
 
 ## Introduction
 
