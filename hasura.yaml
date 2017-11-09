@@ -1,4 +1,4 @@
-description: Blank template for a Hasura project
-keywords: base, getting-started
-name: base
+description: A basic swift server using the vapor framework
+keywords: getting-started, swift, vapor
+name: hello-swift-vapor
 platformVersion: v0.15.3
